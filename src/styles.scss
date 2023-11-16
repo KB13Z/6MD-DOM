@@ -1,0 +1,140 @@
+body {
+  background-color: white;
+  margin: 20px 40px;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  width: 162px;
+  height: 68px;
+  margin-right: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  font-weight: bold;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+#buttonOne {
+  background-color: rgba(1, 113, 135, 1);
+}
+
+#buttonTwo {
+  background-color: rgba(92, 1, 135, 0.71);
+}
+
+#buttonThree {
+  background-color: rgba(135, 17, 1, 0.56);
+}
+
+#buttonFour {
+  background-color: rgba(1, 135, 14, 0.63);
+}
+
+#buttonFive {
+  background-color: rgba(226, 207, 34, 1);
+}
+
+#buttonSix {
+  background-color: rgba(1, 30, 135, 1);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: black;
+  font-size: 56px;
+  column-gap: 20px;
+}
+
+.rowOne {
+  display: flex;
+  gap: 85px;
+}
+
+#boxOne {
+  height: 300px;
+  width: 300px;
+  background-color: #1fc2ae;
+}
+
+#boxTwo {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(31, 194, 174, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxThree {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(31, 194, 174, 1);
+}
+
+.rowTwo {
+  display: flex;
+  gap: 85px;
+}
+
+#boxFour {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(31, 194, 174, 1);
+}
+
+#boxFive {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(31, 194, 174, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxSix {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(31, 194, 174, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  padding-bottom: 40px;
+}
+
+#buttonSeven {
+  background-color: rgba(24, 213, 225, 1);
+  margin-bottom: 20px;
+}
+
+footer input {
+  width: 200px;
+  height: 42px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+footer input::placeholder {
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#hiddenText {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 5px;
+}
